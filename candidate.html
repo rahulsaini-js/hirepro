@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Candidates - HirePro</title>
+    <link rel="stylesheet" href="styles1.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="candidate.html">Find Candidates</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="register.html">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="search">
+      <h2>Find Candidates</h2>
+      <form id="search-form">
+        <div>
+          <label for="location">Location:</label>
+          <input
+            type="text"
+            id="location"
+            name="location"
+            placeholder="Enter location"
+          />
+        </div>
+        <div>
+          <label for="job-role">Job Role:</label>
+          <input
+            type="text"
+            id="job-role"
+            name="job-role"
+            placeholder="Enter job role"
+          />
+        </div>
+        <button type="submit" class="cta-btn">Search</button>
+      </form>
+    </section>
+
+    <section id="candidates">
+      <h2>Matching Candidates</h2>
+      <div id="candidates-list"></div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 HirePro. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
